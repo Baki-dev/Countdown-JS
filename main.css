@@ -18,6 +18,7 @@ header {
   background-size: cover;
   background-position: center;
   position: relative;
+  background: url(background.jpg) no-repeat center center;
 }
 header:after {
   display: block;
@@ -28,15 +29,15 @@ header:after {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-color: rgb(255, 255, 255);
+  background-image: url(../Countdown-JS/background.jpg);
 }
 header .content {
   position: relative;
   z-index: 1;
 }
 header .content h1 {
-  color: rgb(228, 103, 103);
-  font-size: 80px;
+  color: rgb(255, 186, 186);
+  font-size: 50px;
   font-weight: 900;
 }
 header .content h1 span {
@@ -59,12 +60,12 @@ header .content h1 span {
 }
 @media screen and (min-width: 1280px) {
   header .content h1 {
-    font-size: 72px;
+    font-size: 85px;
   }
 }
 header .content h2 {
-  color: #2c00bb;
-  font-size: 42px;
+  color: white;
+  font-size: 50px;
   font-weight: 900;
   margin: 30px 0px;
 }
@@ -89,8 +90,8 @@ header .content h2 {
   }
 }
 header .content .countdown {
-  color: rgb(233, 95, 95);
-  font-size: 36px;
+  color: rgb(255, 186, 186);
+  font-size: 56px;
   font-weight: 400;
 }
 @media screen and (min-width: 480px) {

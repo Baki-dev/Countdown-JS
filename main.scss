@@ -22,11 +22,9 @@ header {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-
-  background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
-
+  background-image: url(../Countdown-JS/background.jpg);
   position: relative;
 
   &:after {
