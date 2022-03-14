@@ -39,6 +39,7 @@ header .content h1 {
   color: rgb(255, 186, 186);
   font-size: 50px;
   font-weight: 900;
+  padding-top: 4em;
 }
 header .content h1 span {
   font-weight: 400;
@@ -91,7 +92,7 @@ header .content h2 {
 }
 header .content .countdown {
   color: rgb(255, 186, 186);
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 400;
 }
 @media screen and (min-width: 480px) {
